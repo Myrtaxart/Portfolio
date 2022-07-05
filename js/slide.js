@@ -6,11 +6,11 @@ var Slide = function(){
 }
 var indicegeral = 0;
 var slides = [new Slide(),new Slide()];
-slides[0].imgurl = './img/slides/img1.png';
+slides[0].imgurl = '/img/slides/img1.png';
 slides[0].title = "Foxby";
 slides[0].description = "Foxby é um livro infantil baseado em uma historia propria que fiz para uma HQ indie que conta um pouco das minhas vivencias de forma ludica e artistica em um contexto infantil.";
 slides[0].link =  "/projects/foxby/";
-slides[1].imgurl = './img/slides/img2.png';
+slides[1].imgurl = '/img/slides/img2.png';
 slides[1].title = "Hugo Cabret";
 slides[1].description = "Alternativa de poster do filme Hugo cabret projetado em torno do conceito de ação e movimento, onde o objetivo é passar de forma estatitica uma ação que representasse o filme.";
 slides[1].link =  "/projects/hugocabret/";
@@ -44,7 +44,7 @@ function timer()
 
 function definirSlide(indiceslide)
 {
-    background.style.backgroundImage = "url("+slides[indiceslide].imgurl+")";
+    background.style.backgroundImage = "url("+"."+slides[indiceslide].imgurl+")";
     title.innerHTML = slides[indiceslide].title;
     description.innerHTML = slides[indiceslide].description;
     counter = 0;
