@@ -1,0 +1,110 @@
+#header
+{
+  position: fixed;
+  top: -100%;
+  z-index: 5;
+  transition: top 0.5s;
+}
+#btn_hide_link, #btn_menu_link
+{
+  z-index: 4;
+}
+
+#start_panel
+{
+  background-image: url("/img/header/background_startpanel.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 81vw;
+  height: 100vh;
+  float: left;
+}
+
+#btn_show_link
+{
+  position: absolute;
+  display: block;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: +7.5%;
+}
+
+#brand
+{
+  position: relative;
+  width: 81vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#author_panel
+{
+  position: absolute;
+  right: -19vw;
+  width: 19vw;
+  height: 100vh;
+  background: linear-gradient(rgb(233,48,74),rgb(245,139,62));
+  float: left;
+}
+
+#author_screen_link
+{
+  position: relative;
+  display: block;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#author_screen
+{
+  width: 100%;
+}
+
+#btn_vermais_link
+{
+  position: absolute;
+  display: block;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: +2.5%;
+}
+
+#btn_vermais
+{
+  position: relative;
+  background: #181B26;
+  width: 100%;
+  height: 7vh;
+  border-radius: 3.5vh;
+}
+
+#btn_menu_link_header
+{
+  position: absolute;
+  display: block;
+  top: 6vh;
+  right: 8vh;
+}
+
+#btn_menu_link
+{
+  top: 6vh;
+  right: 8vh;
+}
+
+#btn_menu_link
+{
+  position: absolute;
+}
+
+#btn_hide_link
+{
+  position: absolute;
+  display: block;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: +7.5%;
+}

@@ -1,0 +1,41 @@
+#zoom_view
+{
+  position: fixed;
+  background: #181B26;
+  right: -100%;
+  width: calc(100vw - 17px);
+  height: 100vh;
+  top: 0px;
+  z-index: 10;
+  transition: right 0.5s;
+}
+
+#container_imagetozoom
+{
+  background: linear-gradient(rgb(233,48,74),rgb(245,139,62));
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  z-index: -2;
+}
+
+#imagetozoom
+{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%  );
+  z-index: -1;
+}
+
+#zoom_image
+{
+  position: absolute;
+  background: url("/img/arts/hilda_max.png");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  right: 0;
+  width: 65%;
+  height: 100%;
+  transition: all 0.1s;
+}

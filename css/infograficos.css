@@ -1,0 +1,27 @@
+.gallery_infos
+{
+    position: relative;
+    max-width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-x: auto;
+    display: flex;
+    overflow-wrap: normal;
+    white-space: nowrap;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+}
+
+.infografico
+{
+    width: 30%;
+    min-width: 30%;
+    margin-right: 30px;
+}
+
+.infografico img
+{
+    width: 100%;
+}
+
+

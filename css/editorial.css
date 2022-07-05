@@ -1,0 +1,73 @@
+.gallery_artefacts
+{
+    position: relative;
+    left:7.5vw;
+    max-width: 70vw;
+}
+
+.artefact
+{
+    width: 100%;
+    margin: 0 0 40px 0;
+    height: 500px;
+}
+
+.artefact_img
+{
+    height: 100%;
+}
+
+.content
+{
+    position: relative;
+    float: right;
+    width: calc(98% - 400px);
+    height: 100%;
+}
+
+.artefact_title
+{
+    font-size: 144px;
+}
+
+.artefact_subtitle
+{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.artefact_type
+{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.btn_editorial
+{
+    position: absolute;
+    bottom: 10%;
+}
+
+.btn_processo
+{
+ left: 5%;
+}
+
+.btn_leragora
+{
+    left: 60%;
+}
+
+.btn_editorial:hover .btn_text
+{
+  color: #181B26;
+}
+
+.btn_editorial .btn_text
+{
+    font-size: 28px;
+}

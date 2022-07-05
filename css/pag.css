@@ -1,0 +1,158 @@
+body
+{
+  background: #181B26;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6, title
+{
+  font-family: 'Medula One', cursive;
+  font-weight: 400;
+}
+
+p
+{
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  cursor: pointer;
+}
+
+.btn_anterior
+{
+  position: absolute;
+  top: 4vh;
+  left: 4vh;
+  width: 4%;
+}
+
+::-webkit-scrollbar {
+  background: #0A0C14;
+  width: 20 px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #2E3240;
+  border-radius: 10px;
+  width: 5px;
+}
+
+.separacao
+{
+  position: relative;
+  width: 80%;
+  margin: 0 10%;
+  background: white;
+  height: 5px;
+}
+
+.btn_vermais_separacao
+{
+  position: relative;
+  background: linear-gradient(to right,rgb(233,48,74),rgb(245,139,62));
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  border: #181B26 solid 20px;
+  border-radius: 60px;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.title_vermais
+{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.btn_gradient
+{
+  background: linear-gradient(to right,rgb(233,48,74),rgb(245,139,62));
+  width: 40%;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.link_post_ampliar
+{
+  position: relative;
+  display: inline-block;
+  width: 420px;
+  height: 100%;
+}
+
+.btn_ampliar
+{
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+  transition: color, 0.25s;
+}
+
+.btn_text
+{
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Medula One', cursive;
+  font-weight: 400;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: color, 0.25s;
+}
+
+.title_tag
+{
+  position: relative;
+  top: 60px;
+  left: 100px;
+  font-size: 134px;
+  color: #ED4E47;
+  margin: 0 0 140px 0;
+  display: inline-block;
+  transition: color, 0.25s;
+}
+
+.text_part_2
+{
+  position: absolute;
+  min-width: 40vw;
+  top: 50px;
+  margin-left: 5px;
+}
+
+.down_bar
+{
+  position: absolute;
+  background: #ED4E47;
+  top: 215px;
+  left: 110px;
+  height: 10px;
+  width: 100px;
+}
+
+.barra_back
+{
+  width: 100%;
+  height: 25px;
+  background: white;
+  border-radius: 12.5px;
+}
+
+.barra
+{
+  background: linear-gradient(to right,rgb(233,48,74),rgb(245,139,62));
+  height: 100%;
+  border-radius: 12.5px;
+}

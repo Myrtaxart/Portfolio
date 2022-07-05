@@ -1,0 +1,71 @@
+#menu_screen
+{
+  position: fixed;
+  background: linear-gradient(to right, rgb(233,48,74),rgb(245,139,62));
+  right: -100%;
+  width: calc(100vw - 17px);
+  height: 100vh;
+  z-index: 10;
+  top: 0px;
+  transition: right 0.5s;
+}
+
+#marca_background
+{
+  position: absolute;
+  left: 47.5%;
+  height: 105%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#menu ul
+{
+  position: relative;
+  margin-top: 15vh;
+  padding-left: 20vw;
+}
+
+#bloco_menu
+{
+  position: absolute;
+  width: 24vw;
+  height: 100%;
+  background: #181B26;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#menu li
+{
+  font-size: 110px;
+  font-family: 'Medula One', cursive;
+  font-weight: 400;
+}
+
+#menu li a
+{
+  position: relative;
+  height: 100%;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+#menu li a div
+{
+  background: #181B26;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: width 0.5s;
+}
+
+#menu li a:hover div
+{
+  width: 100%;
+  transition: width 0.5s;
+}

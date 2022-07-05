@@ -1,0 +1,52 @@
+.gallery
+{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gallery_grid_coluns
+{
+    display: flex;
+}
+
+.gallery_colun
+{
+    width: calc(100%/3);
+}
+
+.frame_gallery
+{
+    width: 100%;
+    float: left;
+    cursor: pointer;
+}
+
+.gallery_grid
+{
+    width: 100%;
+}
+
+.link_photo_gallery
+{
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+
+.photo_gallery
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.link_photo_gallery:hover .btn_ampliar
+{
+  color: #181B26;
+}

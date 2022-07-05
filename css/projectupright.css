@@ -1,0 +1,53 @@
+#pag_relative
+{
+    width: 80vw;
+    margin-left: 100px;
+}
+
+#pag_relative p
+{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.title_tag
+{
+    left: 0px;
+}
+
+#pag_relative img
+{
+    height: 100%;
+    border-radius: 10px;    
+}
+
+.list_process
+{
+    width: 100%;
+}
+
+.stage_process
+{
+    position: relative;
+    height: 90vh;
+    margin: 0 0 40px 0;
+}
+
+.stage_process .content
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: calc(60% - 40px);
+    padding: 20px 0 20px 40px;
+}
+
+.title_stage
+{
+    font-size: 32px;
+}
+
+.description
+{
+    font-style: italic;
+}
