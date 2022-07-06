@@ -5,7 +5,7 @@ var Slide = function(){
     var link;
 }
 var indicegeral = 0;
-var slides = [new Slide(),new Slide()];
+var slides = [new Slide(),new Slide(),new Slide()];
 slides[0].imgurl = '/img/slides/img1.png';
 slides[0].title = "Foxby";
 slides[0].description = "Foxby é um livro infantil baseado em uma historia propria que fiz para uma HQ indie que conta um pouco das minhas vivencias de forma ludica e artistica em um contexto infantil.";
@@ -14,6 +14,10 @@ slides[1].imgurl = '/img/slides/img2.png';
 slides[1].title = "Hugo Cabret";
 slides[1].description = "Alternativa de poster do filme Hugo cabret projetado em torno do conceito de ação e movimento, onde o objetivo é passar de forma estatitica uma ação que representasse o filme.";
 slides[1].link =  "./projects/hugocabret/index.html";
+slides[2].imgurl = '/img/slides/img3.png';
+slides[2].title = "Nikita";
+slides[2].description = "Nikita é um jogo de valorização da cultura LGBTQIA+ que busca aumentar a quantidade, qualidade e aprofundamento de artefatos queers na comunidade gamer.";
+slides[2].link =  "./projects/hugocabret/index.html";
 
 var background = document.querySelector('.slide_projects');
 var title = document.querySelector('.title_slide');
