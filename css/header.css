@@ -12,7 +12,7 @@
 
 #start_panel
 {
-  background-image: url("/img/header/background_startpanel.png");
+  background-image: url("../img/header/background_startpanel.png");
   background-size: cover;
   background-position: center;
   position: relative;
