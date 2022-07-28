@@ -1,12 +1,12 @@
 .slide_projects
 {
     position: relative;
-    margin-top: 140px;
+    margin-top: 0;
     background-image: url('/img/slides/img1.png');
     background-size: cover;
     background-position: center;
     width: calc(100% - 20vw);
-    height: 540px;
+    height: 38vw;
     padding: 10px 10vw;
     transition: all 0.3s;
 }
